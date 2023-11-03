@@ -8,8 +8,7 @@
 *.obj
 
 # Precompiled Headers
-*.gch
-*.pch
+*.gch *.pch
 
 # Compiled Dynamic libraries
 *.so
@@ -30,3 +29,14 @@
 *.exe
 *.out
 *.app
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+.cache/
+compile_commands.json
+cmake_install.cmake
+Makefile
+
+# Binary
+lexer 
