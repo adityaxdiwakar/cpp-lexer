@@ -11,6 +11,7 @@ set(CPP_FILES
 
 set(HEADER_FILES
     lexer.hpp
+    tokens.hpp
 )
 
 add_executable(lexer ${CPP_FILES} ${HEADER_FILES})
